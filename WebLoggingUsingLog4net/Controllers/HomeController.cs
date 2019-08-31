@@ -19,7 +19,7 @@ namespace WebLoggingUsingLog4net.Controllers
                 Log.Info("Log Info Level");
                 Log.Warn("Log Warn Level");
                 throw new NullReferenceException();
-                return View();
+                //return View();
             }
             catch (Exception ex)
             {
